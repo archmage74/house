@@ -1,0 +1,11 @@
+workspace/RemoteSystemsTempFiles
+workspace/.metadata
+workspace/house-central/target
+workspace/house-central/.classpath
+workspace/house-central/.project
+workspace/house-beagle/target
+workspace/house-beagle/.classpath
+workspace/house-beagle/.project
+androidworkspace/.metadata
+androidworkspace/house-gui/bin
+androidworkspace/house-gui/gen

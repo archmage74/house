@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <net.archmage.house.MyGLSurfaceView
+        android:id="@+id/gl_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/blend_control_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:background="#88ffffff"
+        android:orientation="horizontal" >
+
+        <SeekBar
+            android:id="@+id/blend_seek_bar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:max="100"
+            android:progress="0" />
+
+        <EditText
+            android:id="@+id/blend_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/percent" />
+
+        <Button
+            android:id="@+id/blend_send_value_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_send" />
+    </LinearLayout>
+
+</FrameLayout>
